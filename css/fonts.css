@@ -1,0 +1,10 @@
+/* CSS Font - CSS 文字样式 */
+/*Date:09-07-06
+By: wangsong
+*/
+body {*font-size:small;*font:x-small;font-family: arial, helvetica, clean, sans-serif;}.f-s-9{font-size:56%;*font-size:67%;}.f-s-10{font-size:62%;*font-size:75%;}.f-s-11{font-size:68%;*font-size:82%;}.f-s-12 {font-size:75%;*font-size:90%;}/*=12px*/.f-s-13 {font-size:81%;*font-size:100%;}/*=13px*/.f-s-14 {font-size:87%;*font-size:105%;}/*=14px*/.f-s-15 {font-size:93%;*font-size:115%;}/*=15px*/.f-s-16 {font-size:100%;*font-size:120%;}/*=16px*/.f-s-17 {font-size:106%;*font-size:125%;}/*=17px*/.f-s-18 {font-size:112%;*font-size:135%;}/*=18px*/.f-s-19 {font-size:118%;*font-size:145%;}/*=19px*/.f-s-20 {font-size:125%;*font-size:150%;}/*=20px*/.f-s-21 {font-size:131%;*font-size:155%;}/*=21px*/.f-s-22 {font-size:137%;*font-size:165%;}/*=22px*/.f-s-23 {font-size:143%;*font-size:170%;}/*=23px*/.f-s-24 {font-size:150%;*font-size:180%;}/*=24px*/.f-s-25 {font-size:156%;*font-size:185%;}/*=25px*/.f-w-no {font-weight:normal;}.f-w-100 {font-weight:100;}.f-w-b {font-weight:bold;}.f-w-bol {font-weight:bolder;}
+.f-f-1 {font-family:Arial, sans-serif;}/*常规字体*/
+.l-h-10{line-height:1em;}/*=100%*/
+.l-h-15{line-height:1.5em;}/*=150%*/
+.l-h-18{line-height:1.8em;}/*=180%*/
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="KEYWords" contect="">
+<meta name="DEscription" contect="">
+<meta name="Author" contect="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理用户</title>
+<style>
+.dsp-data-dl{}
+.dsp-data-dl dt{float: left;line-height: 42px;text-align: right;width: 100px;}
+.dsp-data-dl dd{ float: left;padding: 0 0 0 14px;}
+</style>
+<link href="../css/main.css"rel="stylesheet" type="text/css" />
+<link href="../js/com/datetime/css/style003.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--主体包-->
+<div id="wrap">
+  <!--头部-->
+  <div id="head" class="clearfix">
+    <div id="logo"></div>
+    <ul id="bar" class="clearfix">
+      <li class="log_user">wangsong@yoyi.com.cn</li>
+      <li class="log_dian"></li>
+      <li class="log_input"><span><a href="../login.html">退 出</a></span></li>
+    </ul>
+  </div>
+  <!--头部-->
+  <!--中间区域-->
+  <div id="page" class="clearfix">
+    <!--box区域-->
+    <div class="box">
+      <div class="hd">
+        <div class="h_r">
+          <div class="h_m"> </div>
+        </div>
+      </div>
+      <div class="bd">
+        <div class="clearfix delivery_line acc_modify acc_bg">
+          <!--左区域-->
+          <div class="c_d_left">
+            <div class="box_1">
+              <div class="hd_1">
+                <div class="h_r_1">
+                  <div class="h_m_1"> </div>
+                </div>
+              </div>
+              <div class="bd_1 bd_1_deli bd_1_denone">
+                <ul class="acc_lt_ul">
+                  <li>
+                    <h2 class="h2_padtop">您正在新建一个订单</h2>
+                  </li>
+                </ul>
+                <ul class="del_list_lt">
+                  <li>
+                    <h4 class="del_number_1"></h4>
+                    <h2><a href="order_create_new_people_orient.html" title="人群定向">人群定向</a></h2>
+                    <h5></h5>
+                    <div class="clear"></div>
+                  </li>
+                  <li>
+                    <h4 class="del_number_2"></h4>
+                    <h2><a href="order_create_new_basic_orientation.html" title="基础定向">基础定向</a></h2>
+                    <h5></h5>
+                    <div class="clear"></div>
+                  </li>
+                  <li>
+                    <h4 class="del_number_3"></h4>
+                    <h2><a href="additional_direct.html" title="附加定向">附加定向</a></h2>
+                    <h5></h5>
+                    <div class="clear"></div>
+                  </li>
+                  <li>
+                    <h4 class="h4_cur_4"></h4>
+                    <h2 class="h2_cur"><a href="onset.html" title="人群定向">投放设置</a></h2>
+                    <div class="clear"></div>
+                  </li>
+                  <li>
+                    <h4 class="del_num_normal_5"></h4>
+                    <h2 class="h2_normal">上传素材</h2>
+                    <h5 class="h5_nomal"></h5>
+                    <div class="clear"></div>
+                  </li>
+                  <li>
+                    <h4 class="del_num_normal_6"></h4>
+                    <h2 class="h2_normal">订单确认</h2>
+                    <h5 class="h5_nomal"></h5>
+                    <div class="clear"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--左区域-->
+          <!--右区域-->
+          <div class="c_right c_d_right">
+            <div class="del_rg_title">
+              <ul class="del_title_ul">
+                <li class="li_wdw">
+                  <dt>广告主</dt>
+                  <dd>
+                    <div class="input_xiala_wd_l"  >充值</div>
+                  </dd>
+                  <dd class="height_line2">dfdf</dd>
+                  <div class="clear"></div>
+                </li>
+                <li class="li_wdw">
+                  <dt>campaign</dt>
+                  <dd>
+                    <input class="input_xiala_wd_l" value="&nbsp;请输入"  id="campain"/>
+                  </dd>
+                  <dd class="height_line2">dfdf</dd>
+                  <div class="clear"></div>
+                </li>
+                <li class="li_wdw">
+                  <dt>订单名称</dt>
+                  <dd>
+                    <input class="input_text_3" value=""  id="orderlist"/>
+                  </dd>
+                   <dd class="height_line2">dfdf</dd>
+                  <div class="clear"></div>
+                </li>
+                <li class="li_wdw">
+                  <dt>监测站点</dt>
+                  <dd>
+                    <div class="input_xiala_wd_l" id="website">&nbsp;选择监测网站</div>
+                  </dd>
+                  <dt class="dt_gery dt_auto">可选</dt>
+                  <div class="clear"></div>
+                </li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+            <h3> <span class="mod_family">第四步：投放设置</span>
+              <div class="clear"></div>
+            </h3>
+            <dl class="del_list pd15">
+              <dt>投放周期</dt>
+              <dd>
+                <div id="dateArea" class="relative"><input type="text" name="date" class="date-input" readonly="readonly" value="2011/12/15 - 2012/01/20"/><input type="hidden" id="timeShortcut" value='0' name='timeshortcut'/></div>
+              </dd>
+            </dl>
+            <div class="clear"></div>
+
+			<dl class="dsp-data-dl">   <!--投放时段-->
+              <dt style="width:110px;">投放时段：</dt>
+			  <dt alt="allWeatherShow" id="allWeatherShow" style="width:120px;text-align:left">全天候展示广告</dt>
+			  <dt style="width:70px;"><a href="###" class="btton_modyfy" title="广告" id="dateShowEdit"><span>修改</span></a><a href="###" class="btton_modyfy" title="广告" id="dateShowCancel" style="display:none;"><span>取消</span></a></dt>
+            </dl>
+			<div class="clear"></div>
+			<dl class="dsp-data-dl">
+				<dt style="line-height:1px;">&nbsp;</dt>
+			  <dd style="position:relative;" class="none" id="dateTimeArea"></dd>   <!--时间段-->
+			</dl>
+			<div class="clear"></div>
+            <dl class="del_list">
+              <dt>最高曝光频次</dt>
+              <dd>
+                <input type="text" class="input_text_date"/>
+              </dd>
+              <dt class="dt_nowt_w">次/天/用户</dt>
+            </dl>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>最高单价</dt>
+              <dd>
+                <input type="text" class="input_text_date"/>
+              </dd>
+              <dt class="dt_nowt_w">元</dt>
+            </dl>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>总预算</dt>
+              <dd>
+                <input type="text" class="input_text_date"/>
+              </dd>
+              <dt class="dt_nowt_w">元/CPM</dt>
+            </dl>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>平均每天最高花费</dt>
+              <dd>
+                <input type="text" class="input_text_date"/>
+              </dd>
+              <dt class="dt_nowt_w">元</dt>
+            </dl>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>投放设置</dt>
+              <dd class="dd_pd">
+                <input type="radio" checked name="radio2"/>
+                匀速展示广告&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="radio2"/>
+                加速展示广告 </dd>
+            </dl>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>优化设置</dt>
+              <dd class="dd_pd">
+                <input type="radio"name="radio"/>
+                曝光优先&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="radio"  checked />
+                点击优先 </dd>
+            </dl>
+            <div class="clear"></div>
+            <div class="clear"></div>
+            <dl class="del_list">
+              <dt>目标CTR</dt>
+              <dd>
+                <input type="text" class="input_text_date"/>
+                % </dd>
+            </dl>
+            <div class="clear"></div>
+            <div class="del_center pd15"><a href="upload_material.html" class="btton_save"><span>保存并继续</span></a></div>
+          </div>
+        </div>
+        <!--右区域-->
+      </div>
+      <div class="ft">
+        <div class="f_r">
+          <div class="f_m"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--box区域-->
+</div>
+<!--中间区域-->
+<!--尾部-->
+<div id="foot"> </div>
+<!--尾部-->
+
+<input type="text" id="dateReturnVal" name="" style="width:30000px;height:100px;"/>
+<input type="text" id="currentDateVal" name="" style="width:3000px;height:100px;" alt=""/>
+</div>
+<!--主体包-->
+<script src="../js/lib/jquery-1.3.2.min.js" language="javascript" type="text/javascript"></script>
+<script src="../js/com/datetime/DatepickerTime.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   var dateObj=new Date();
+   var curYear=dateObj.getFullYear();
+   var curMonth=dateObj.getMonth()+1;
+   var curDate=dateObj.getDate();
+   var curDateFormat=curYear+"/"+(curMonth.toString().length!=1?curMonth:'0'+curMonth)+"/"+(curDate.toString().length!=1?curDate:'0'+curDate);
+   $('input.date-input').val(curDateFormat+' - '+curDateFormat)   //setCurrentDate
+   $("#dateReturnVal").val('{"'+_cutsign(curDateFormat,'/','-')+'":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]}');
+   $("#dateReturnVal").attr("alt",curDateFormat);
+   $('input.date-input').initDate({
+	  lastoption:0,
+	  sdate:2000,
+	  edate:2050,
+	  target:'.date-control',
+	  starget:'.date-input',
+	  pos:'relative',
+	  posleft:0,
+	  postop:5,
+	  parentid:'#dateArea',
+	  timeparentid:'#dateTimeArea',
+	  returnvalid:'#dateReturnVal'
+   });
+ //  $('#dateReturnVal').dateViewType();
+});
+</script>
+</body>
+</html>

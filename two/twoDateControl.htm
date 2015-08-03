@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DSP_广告平台_afdsa_34432</title>
+<link href="../css/main.css"rel="stylesheet" type="text/css" />
+<link href="../js/com/datetime/css/style003.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--主体包-->
+<div id="wrap">
+  <!--头部-->
+  <div id="head" class="clearfix">
+    <div id="logo"></div>
+    <ul id="menu" class="clearfix">
+	  <li class="menu_dian"></li>
+                        <li class="current"><a href="/index/">广告平台</a></li>
+      <li class="menu_dian"></li>
+                                    <li><a href="/monitor-set/">监测设置</a></li>
+      <li class="menu_dian"></li>
+                                    <li><a href="/account/">账户管理</a></li>
+      <li class="menu_dian"></li>
+                                  </ul>
+    <ul id="bar" class="clearfix">
+      <li class="log_user">lujing@yoyi.com.cn</li>
+	  <li class="log_dian"></li>
+      	  <li class="log_input"><span><a href="/system-message">系统消息(0)</a></span></li>
+      <li class="log_dian"></li>
+            <li class="log_input"><span><a href="###" id="exit_sys">退 出</a></span></li>
+    </ul>
+  </div>
+        <div class="box_3" id="banner_1">
+       <div class="hd_3">
+          <div class="h_r_3">
+             <div class="h_m_3"> </div>
+          </div>
+       </div>
+       <div class="bd_3" id="banner_cont">
+        <ul class='system_title'>
+            <li>您的账户内有“<a  style="color:#fff;text-decoration:underline;" href="/manage-advertiser/">3</a>”位广告主账户余额低于50元，所属所有订单均不能参与竞价，请您及时充值。</li>
+        </ul>	 
+       </div>
+       <div class="ft_3">
+          <div class="f_r_3">
+            <div class="f_m_3"></div>
+          </div>
+       </div>
+	</div>
+      <input type="hidden" value="dsp.dev.yoyi.tv" id="domainName"/>
+  <input type="hidden" value="" id="list_total"/>
+  <!--头部--><!--中间区域-->
+  <div id="page" class="clearfix">
+    <!--box区域-->
+    <div class="box">
+      <div class="hd">
+        <div class="h_r">
+          <div class="h_m"> </div>
+        </div>
+      </div>
+      <div class="bd">
+        <div class="clearfix">
+          <!--左区域-->
+          <div class="c_left">
+  <div class="cover_content" id="cover_content">
+    <div class="box_1" id="left_content">
+      <div class="left_bg_close" id="left_bg_close" style="display:none;"></div>
+      <div class="hd_1">
+        <div class="h_r_1">
+          <div class="h_m_1"> </div>
+        </div>
+      </div>
+      <div class="bd_2 bd_padtop">
+        <div class="clearfix">
+          <div class="pad_lt_rg">
+            <div class="left">
+              <input name="searchName" id="search_Name" type="text" value="" class="input_search_index">
+            </div>
+            <div class="left" style="margin:0 0 0 5px;*margin:2px 0 0 5px;"><a href="javascript:void(0);" id="search_button" class="search_input" title="GO"><span>GO</span></a> </div>
+          </div>
+        </div>
+        <div class="pad_lt_rg relative">
+          <h1 class="title_one"><span id="show_menu"></span><a href="###" id="NumberAll">数据总览</a></h1>
+          <ul id="menu_one" class="menu_list">
+            <li val='1'><a href="javascript:void(0);">按日期排列</a></li>
+                        <li val='2'><a href="javascript:void(0);">按广告主排列</a></li>
+                        <li val='3'><a href="javascript:void(0);">按投放状态排列</a></li>
+          </ul>
+        </div>
+        <div class="menu_bg">
+          <div class="menu_list_up_no" id="button_list_up"></div>
+          <div id="menu_list" style="height:460px;overflow:hidden;position:relative;">
+            <div id="scroll_btn" style="background:url(/images/scroll_btn.gif) no-repeat;width:3px;height:114px;position:absolute;right:3px;top:0px;display:none;"></div>
+            <div class="menu" id="menu_scroll">
+              <div id="DateTree">
+                <div class="loading_2_rep" style="margin-top:20px;"><img width="81" height="26" alt="加载中" src="/images/loading_2.gif"></div>
+              </div>
+              <div id="AdverTree" class="none">
+                <div class="loading_2_rep" style="margin-top:20px;"><img width="81" height="26" alt="加载中" src="/images/loading_2.gif"></div>
+              </div>
+              <div id="OrderTree" class="none">
+                <div class="loading_2_rep" style="margin-top:20px;"><img width="81" height="26" alt="加载中" src="/images/loading_2.gif"></div>
+              </div>
+            </div>
+          </div>
+          <div class="menu_list_down_no" id="button_list_down"></div>
+        </div>
+      </div>
+      <div class="ft_1">
+        <div class="f_r_1">
+          <div class="f_m_1"></div>
+        </div>
+      </div>
+    </div>
+    <div class="box_1 mt15 help-message-box" id="info_box">
+      <div class="hd_1">
+        <div class="h_r_1">
+          <div class="h_m_1"> </div>
+        </div>
+      </div>
+      <div class="bd_1" id="helpWarp">
+        <div class="help_box">
+          <h2>说明</h2>
+          <ul>
+            <li><a href="#" title="帮助信息" class="help_dot">帮助信息</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="ft_1">
+        <div class="f_r_1">
+          <div class="f_m_1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<input type="hidden" value="" id="orderType"/>
+<input type="hidden" value="" id="orderField"/>
+<input type="hidden" value="0" id="campaignId"/>
+<input type="hidden" value="80" id="orderId"/>
+<input type="hidden" value="" id="contId"/>
+<input type="hidden" value="" id="orderIdContrast"/>
+<input type="hidden" value="" id="orderNameContrast"/>
+          <!--左区域-->
+          <!--右区域-->
+          <div class="c_right">
+            <div class="box_1">
+              <div class="hd_1">
+                <div class="h_r_1">
+                  <div class="h_m_1"></div>
+                </div>
+              </div>
+              <div class="bd_1">
+                <div class="cpre_dateall">
+                  <h4 class="date-select"></h4>
+                  <h3>
+                    <div class="relative" id="dateArea" style='z-index:10;'>
+                      <div class="date_start none" id="oneSelectTime"></div>
+                      <div class="date_end" style="margin-top:7px;" id="twoSelectTime">2012/02/20 - 2012/03/05</div>
+                    </div>
+                  </h3>
+                  <h5></h5>
+                  <h2>34432</h2>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <div class="ft_1">
+                <div class="f_r_1">
+                  <div class="f_m_1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="create_book_index">
+              <div class="clearfix">
+							   <div class="preButton">
+				                    <div style="z-index:9;" class="acc_staus">
+                    <div class="cp" id="onstatus"><span></span>
+                      <p val="66" txt="启用" href="javascript:void(0)"> <span class="acc_stop"></span>启用</p>
+                    </div>
+                    <div style="padding:0px;width:79px;" class="acc_lays none"> <a txt="暂停" href="javascript:void(0)"><b class="acc_yqf_stop">暂停</b></a> </div>
+                  </div>
+				                  </div>
+			  <div class="preModify"> 投放设置：<b>2012/02/29-2012/02/29</b>&nbsp;&nbsp;频次：<b>3次/天</b>&nbsp;&nbsp;总预算：<b>23</b>&nbsp;&nbsp;最高单价：<b>23.00元/CPM</b>&nbsp;&nbsp;平均每天最高花费：<b>23.00元</b>
+                  <a href="/put-set/edit/type/report-data/orderId/80">修改</a>&nbsp;&nbsp;
+                  附加定向：<b>全部地域&nbsp;&nbsp;
+                  全部浏览器&nbsp;&nbsp;
+                  全部语言&nbsp;&nbsp;
+                  全部操作系统&nbsp;&nbsp;</b><a href="/direct-additional/edit/type/report-data/orderId/80">修改</a>&nbsp;&nbsp;
+                  	人群定向：<b>全部人群&nbsp;&nbsp;</b><a href="/direct-user/edit/type/report-data/orderId/80">修改</a>
+                  媒体定向：<b>全部媒体&nbsp;&nbsp;</b><a href="/direct-base/edit/type/report-data/orderId/80">修改</a>&nbsp;&nbsp;关键词定向：<b>全部关键词&nbsp;&nbsp;</b><a href="/direct-base/edit/type/report-data/orderId/80">修改</a>&nbsp;&nbsp;素材：<b>共上传2个素材&nbsp;&nbsp;</b><a href="/material/edit/type/report-data/orderId/80">修改</a> </div>
+              </div>
+			              </div>
+            <div class="new_preview_tit">
+              <ul class="clearfix">
+                <li class="current" onClick="javascript:$.fn.getPageInfo(1);"><span>基础报表</span></li>
+                <li onClick="javascript:$.fn.getPageInfo(2);"><span>受众洞察</span></li>
+              </ul>
+            </div>
+            <div class="new_preview_con">
+              <div class="title"> <span class="excel" id="excel_one"></span><span>导出报表：</span> <div id="add_btn_one"><a href="javascript:void(0);" class="btton_lt" style="width:115px;" id="corver_duibi"><span><span class="create_add">添加订单对比</span></span></a></div><div id="add_btn_two" class="none">订单对比：<div class="addicon" id="add_two_name" style="cursor:default">悠易互通</div>&nbsp;&nbsp;<a href="javascript:void(0);" id="constract_btn" style="color:#2fa1db">取消</a></div></div>
+              <div class="opration">
+                <div class="input_title">选取指标：</div>
+                <div class="acc_staus acc_staus_none" style="z-index:1;">
+                  <div class="cp" id="acc_count_one"><span class="span_t"></span>
+                    <p txt="曝光量">曝光量</p>
+                  </div>
+                  <div class="acc_lays none" style="padding:0px;width:79px;"> <a href="javascript:void(0);" txt="点击量">点击量</a><a href="javascript:void(0);" txt="点击率">点击率</a> </div>
+                </div>
+              </div>
+              <div class="content"  id="spline" style="width:847px; height:254px;">
+			  <div class="loading_2_rep"><img width="81" height="26" alt="加载中" src="/images/loading_2.gif"></div>
+			  </div>
+            </div>
+            <div class="new_preview_table">
+              <div class="title">
+                <ul class="tool">
+                  <li>维度选取：</li>
+                  <li>
+                    <div class="acc_staus acc_staus_none" style="z-index:2;">
+                      <div id="select_tab_one" class="cp"><span class="span_t"></span>
+                        <p txt="时间">时间</p>
+                      </div>
+                      <div class="acc_lays none" style="padding:0px;width:79px;"> <a href="javascript:void(0);" txt="地域">地域</a><a href="javascript:void(0);" txt="素材">素材</a><a href="javascript:void(0);" txt="人群">人群</a><a href="javascript:void(0);" txt="媒体">媒体</a><a href="javascript:void(0);" txt="其它维度">其它维度</a> </div>
+                    </div>
+                  </li>
+                  <li class="mll20">
+                    <div id="select_c_one" class="acc_staus acc_staus_none select_cont_tab" style="z-index:1;width:80px;">
+                      <div class="cp" id="select_c_time"><span class="span_t"></span>
+                        <p txt="天" val="day">天</p>
+                      </div>
+                      <div class="acc_lays none" style="padding:0px;width:88px;"><a href="javascript:void(0);" txt="小时" val="hour">小时</a><a href="javascript:void(0);" txt="周" val="week">周</a><a href="javascript:void(0);" txt="月" val="month">月</a></div>
+                    </div>
+                    <div id="select_c_two" class="acc_staus acc_staus_none select_cont_tab" style="z-index:1;width:80px;display:none;">
+                      <div class="cp" id="select_c_pro"><span class="span_t"></span>
+                        <p txt="省/直辖市">省/直辖市</p>
+                      </div>
+                      <div class="acc_lays none" style="padding:0px;width:88px;"><a href="javascript:void(0);" txt="国家">国家</a></div>
+                    </div>
+                    <div id="select_c_three" class="acc_staus acc_staus_none select_cont_tab" style="z-index:1;width:80px;display:none;">
+                      <div class="cp" id="select_c_mari"><span class="span_t"></span>
+                        <p txt="素材">素材</p>
+                      </div>
+                    </div>
+                    <div id="select_c_four" class="acc_staus acc_staus_none select_cont_tab" style="width:80px;z-index:1;display:none;">
+                      <div class="cp" id="select_c_user"><span class="span_t"></span>
+                        <p txt="行业">行业</p>
+                      </div>
+					  <div class="acc_lays none" style="padding:0px;width:88px;"><a href="javascript:void(0);" txt="产品">产品</a></div>
+                    </div>
+                    <div id="select_c_five" class="acc_staus acc_staus_none select_cont_tab" style="z-index:1;display:none;">
+                      <div class="cp" id="select_c_web"><span class="span_t"></span>
+                        <p txt="媒体分类">媒体分类</p>
+                      </div>
+                    </div>
+                    <div id="select_c_six" class="acc_staus acc_staus_none select_cont_tab" style="width:120px;z-index:1;display:none;">
+                      <div class="cp" id="select_c_key"><span class="span_t"></span>
+                        <p txt="关键词">关键词(显示前20)</p>
+                      </div>
+                      <div class="acc_lays none" style="padding:0px;width:128px;"><a href="javascript:void(0);" txt="语言">语言</a><a href="javascript:void(0);" txt="浏览器">浏览器</a><a href="javascript:void(0);" txt="操作系统">操作系统</a></div>
+                    </div>
+                  </li>
+                  <li class="ml50">
+                    <div class="input_xiala_res w68 mt1" id="select_three" style="z-index:2;"><span class="select" txt="翻页查看">翻页查看</span>
+                      <div class="input_xia_box" style="display:none;">
+                        <ul>
+                          <li txt="全部查看">全部查看</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ml30" id="report_icon_title">查看：</li>
+                  <li id="report_icon_cont">
+                    <div class="input_xiala_res w35 mt1" id="select_four" style="z-index:2;"><span class="select" txt="网格"><span class="icon_one"></span></span>
+                      <div class="input_xia_pic" style="display:none;">
+                        <ul>
+                          <li txt="列表"><span class="icon_two"></span></li>
+                        </ul>
+                      </div>
+                    </div>
+					<div class="input_xiala_res w35 mt1" id="select_fours" style="z-index:2;display:none;"><span class="select" txt="列表"><span class="icon_two"></span></span>
+                      <div class="input_xia_pic" style="display:none;">
+                        <ul>
+                          <li txt="网格"><span class="icon_one"></span></li>
+                        </ul>
+                      </div>
+                    </div>
+					<div class="input_xiala_res w35 mt1" id="select_fourr" style="z-index:2;display:none;"><span class="select" txt="网格"><span class="icon_one"></span></span>
+                      <div class="input_xia_pic" style="display:none;">
+                        <ul>
+                          <li txt="图表"><span class="icon_three"></span></li>
+                        </ul>
+                      </div>
+                    </div>
+					<div class="input_xiala_res w35 mt1" id="select_fourrr" style="z-index:2;display:none;"><span class="select" txt="图表"><span class="icon_three"></span></span>
+                      <div class="input_xia_pic" style="display:none;">
+                        <ul>
+                          <li txt="网格"><span class="icon_one"></span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li id="search_one" style="float:right; line-height:normal;display:none;"><a href="javascript:void(0);" class="btton_lt" id="search_button_list"><span>查 询</span></a></li>
+				  <li id="search_two" style="float:right; line-height:normal;"><a href="javascript:void(0);" class="btton_lt_grey" title="查 询"><span>查 询</span></a></li>
+                  <li style="float:right;">
+                    <input type="text" class="input_search" id="search_name"/>
+                  </li>
+                </ul>
+              
+              </div>
+			  <div id="table_list">
+			  <div class="loading_bg loading_2_rep" style="margin:50px auto;"><img width="39" height="39" alt="加载中" src="/images/loading.gif"></div>
+			  </div>
+              
+            </div>
+          </div>
+		  <input type="hidden" id="orderCont" value="">
+		  <input type="hidden" id="pageType" value="1">
+		  <input type="hidden" id="page_one" value="1">
+		  <input type="hidden" id="showType" value="1">
+		  <input type="hidden" id="reportType" value="day">
+		  <input type="hidden" id="dataType" value="display">
+		  <input type="hidden" id="fieldType1" value="display">
+		  <input type="hidden" id="fieldType2" value="display">
+          <!--右区域-->
+        </div>
+      </div>
+      <div class="ft">
+        <div class="f_r">
+          <div class="f_m"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--box区域-->
+</div>
+<!--中间区域-->
+<!--尾部-->
+<div id="foot">
+Copyright © 2012 Yoyi.com.cn All rights reserved. 悠易互通（北京）广告有限公司 版权所有 京ICP证080307号   京公网安备110105009753号
+</div>
+<!--尾部-->
+</div>
+<!--主体包-->
+
+</body>
+</html>
+<script src="../js/lib/jquery-1.3.2.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="../js/com/datetime/DatepickerCompare.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   var dateObj=new Date();
+   var curYear=dateObj.getFullYear();
+   var curMonth=dateObj.getMonth()+1;
+   var curDate=dateObj.getDate();
+   var curDateFormat=curYear+"/"+(curMonth.toString().length!=1?curMonth:'0'+curMonth)+"/"+(curDate.toString().length!=1?curDate:'0'+curDate);
+   $("#oneSelectTime").text(curDateFormat+' - '+curDateFormat)   //setCurrentDate
+   $('h4.date-select').initDate({
+	  lastoption:0,
+	  sdate:2000,
+	  edate:2050,
+	  target:'.date-control',
+	  starget:'#twoSelectTime',
+	  pos:'absolute',
+	  posleft:-165,
+	  postop:30,
+	  parentid:'#dateArea',
+	  onedateid:'#twoSelectTime',
+	  twodateid:'#oneSelectTime',
+	  callback:function(){
+		 //$.fn.setOrderTimeConstract();
+	  },
+	  comparefun:function(){
+		 if($(arguments[0]).attr("checked")){
+			 $("#oneSelectTime").show();
+			 $("#twoSelectTime").css("marginTop","0px");
+		 }else{
+			 $("#oneSelectTime").hide();
+			 $("#twoSelectTime").css("marginTop","7px");
+		 }
+	  }
+   });
+ });
+</script>

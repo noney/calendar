@@ -1,0 +1,56 @@
+*{padding:0px;margin:0px;}
+html,body{ background:#c0cbde url(../images/bg_top.jpg) top repeat-x; font-size:12px;font-family:"宋体";color:#444;}
+body a{ color:#444;text-decoration:none;}
+body a:hover{ color:#444;text-decoration:none;}
+img{ vertical-align:middle;}
+.clearfix{overflow:hidden;}
+.clear{ clear:both}
+
+.login{position:absolute;right:120px;top:250px;width:375px;}
+.login ul li{list-style:none;margin-top:8px;height:30px;*height:31px;}
+.login ul li .title{float:left;color:#00629b;height:28px;line-height:28px;width:100px;text-align:right;margin-right:10px;}
+.login ul li .content{float:left;height:30px;}
+.login ul li .tips{margin-top:0px;}
+
+.error{color:#ff4800;margin-left:120px;margin-top:3px;}
+.button_ele{margin-left:110px;margin-top:6px;}
+
+.inputtextone{height:28px;line-height:28px;border:solid 1px #bfbfbf;width:260px;}
+.inputtexttwo{height:25px;line-height:25px;border:solid 1px #bfbfbf;width:100px;}
+
+.button_one{background:url(../images/login_button_1.jpg) no-repeat;width:90px;height:25px;border:none;color:#fff;cursor:pointer;}
+.button_two{background:url(../images/login_button_2.jpg) no-repeat;width:92px;height:25px;border:none;color:#00629b;cursor:pointer;}
+
+
+#wrap{border:none;border-top:solid 5px #1661ae;}
+#left,#right{
+float:left;
+margin:0 0 0 -574px;
+*margin:0 0 0 -573px;
+width:50%;
+*width:49.9%;
+overflow:hidden;
+}
+#main{
+width:1148px;
+float:left;
+background:url(../images/bg.jpg) no-repeat;
+height:636px;
+position:relative;
+}	
+.inner{
+padding:20px;
+}
+#left .inner{
+margin:0 0 0 574px;
+*margin:0 0 0 573px;
+background:url(../images/bg_left.jpg) repeat-x;
+height:636px;
+}
+
+#right .inner{
+margin:0 0 0 574px;
+*margin:0 0 0 573px;
+background:url(../images/bg_right.jpg) repeat-x;
+height:636px;
+}

@@ -1,0 +1,9 @@
+/* CSS Grids - CSS 栅格系统 */
+/*
+Date:09-09-08
+By: wangsong
+*/
+.lattice:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;  }.lattice,.clearfix{zoom:1;}
+.grid16x_x1,.grid16x_x2,.grid16x_x3,.grid16x_x4,.grid16x_x5,.grid16x_x6,.grid16x_x7,.grid16x_x8,.grid16x_x9,.grid16x_x10,.grid16x_x11,.grid16x_x12,.grid16x_x13,.grid16x_x14,.grid16x_x15 {margin:0 5px; float:left; overflow:hidden; display:inline;}.grids{margin:0 5px;}/*960 16Column Grid */.grid16x_x1{width:50px;}.grid16x_x2{width:110px;}.grid16x_x3{width:170px;}.grid16x_x4{width:230px;}.grid16x_x5{width:290px;}.grid16x_x6{width:350px;}.grid16x_x7{width:410px;}.grid16x_x8{width:470px;}.grid16x_x9{width:530px;}.grid16x_x10{width:590px;}.grid16x_x11{width:650px;}.grid16x_x12{width:710px;}.grid16x_x13{width:770px;}.grid16x_x14{width:830px;}.grid16x_x15{width:890px;}
+/*Main*/#wrap{width:100%;margin:0 auto;text-align:left;}
+/*Placeholder*/.clearblock{clear:both;height:auto;	voice-family: "\" }\"";voice-family:inherit;height:0;overflow:hidden;}

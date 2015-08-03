@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="KEYWords" contect="">
+<meta name="DEscription" contect="">
+<meta name="Author" contect="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DSP_广告平台_创建活动</title>
+<link href="http://dsp.15.yoyi.tv/css/main.css" rel="stylesheet" type="text/css" />
+<link href="http://dsp.15.yoyi.tv/js/com/slider/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="../js/com/datetime/css/style003.css"rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--主体包-->
+<div id="wrap">
+  <!--头部-->
+  <div id="head" class="clearfix">
+    <div class="clearfix">
+		<div class="logo"></div>
+		<ul class="bar clearfix">
+		  <li>wangsong@yoyi.com.cn</li>
+		  <li class="line"></li>
+		  		  <li><a href="/system-message">新系统消息(0)</a></li>
+		  <li class="line"></li>
+		  		  <li><a href="###" id="exit_sys">退出</a></li>
+		</ul>
+	</div>
+	<div class="relative" style="z-index:20;">
+	<div class="menu clearfix">
+	   <div class="menu_left"></div>
+		   <ul id="menu_center" class="menu_center clearfix">
+		      			  			  			  <li class="current"><span class="current_bg">
+			  			  <span class="icon_one">
+			  			  <a href="/index/" hidefocus="true">广告平台</a></span></span></li>
+			  			  			  			  			  			  <li class="defaults"><span class="defaults_bg">
+			  			  <span class="icon_two_bg">
+			  			  <a href="/monitor-set/" hidefocus="true">监测设置</a></span></span></li>
+			  			  			  			  			  			  <li class="defaults"><span class="defaults_bg">
+			  			  <span class="icon_three_bg">
+			  			  <a href="/account/" hidefocus="true">账户管理</a></span></span></li>
+			  			  			  			  			  			  			  <li class="order_btn" id="order_list_two"></li>
+			  			  <li class="order_line"></li>
+		   </ul>
+	   <div class="menu_right"></div>
+	</div>
+	<div style="position:absolute;top:-40px;*top:0px;right:23px;_right:30px;*right:20px;">
+		<div class="order_list_one none" id="order_cont_two">
+	   <ul class="order_title_list" style="position:relative;top:40px;*top:0px;">
+	     <li cur="list_one"><a href="/campaign/index/">创建一个活动</a></li>
+		 <li cur="list_two"><a href="/order-set/index/">创建一个订单</a></li>
+	   </ul>
+	</div>
+		</div>
+  </div>
+  <div class="system_list">
+        <div class="box_3" id="banner_1">
+       <div class="hd_3">
+          <div class="h_r_3">
+             <div class="h_m_3"> </div>
+          </div>
+       </div>
+       <div class="bd_3" id="banner_cont">
+        <ul class='system_title'>
+            <li>您的账户内有“<a  style="color:#fff;text-decoration:underline;" href="/manage-advertiser/">1</a>”位广告主账户余额低于50元，所属所有订单均不能参与竞价，请您及时充值。</li>
+        </ul>	 
+       </div>
+       <div class="ft_3">
+          <div class="f_r_3">
+            <div class="f_m_3"></div>
+          </div>
+       </div>
+	</div>
+      </div>
+  <input type="hidden" value="dsp.15.yoyi.tv" id="domainName"/>
+  <input type="hidden" value="" id="list_total"/>
+  <!--头部--><link href="/js/com/datatime/css/datetime.css" rel="stylesheet" type="text/css" />
+  <!--中间区域-->
+  <div id="page" class="clearfix">
+    <!--box区域-->
+	    <!--左侧区域-->
+         <div class="page_left">
+      <div class="search_list">
+		 <input name="searchName" id="search_Name" type="text" value="" class="input_text_one">
+      </div>
+            <div class="move_name clearfix" id="tree_pre_list">
+        wangsong@yoyi.com.cn&nbsp;<img src="/images/icon/icon_54.gif">
+		<ul id="cost_list" class="costlist clearfix none">
+		  <li>
+		  <span class="cost_one">总花费金额</span>
+		  <span class="cost_two">￥250,000</span>
+		  <span class="cost_three">历史平均值:￥10,000</span>
+		  </li>
+		  <li>
+		  <span class="cost_one">账户总余额</span>
+		  <span class="cost_two">￥250,000</span>
+		  <span class="cost_three">历史平均值:￥10,000</span>
+		  </li>
+		</ul>
+      </div>      <div class="move_up_list">
+        <div class="move_up_btn_one" id="button_list_up"></div>
+      </div>
+      <div class="menu_list">
+	   <div id="menu_list" style="height:460px;overflow:hidden;position:relative;">
+            <div id="menu_scroll">
+              <div id="AdverTree"></div>
+            </div>
+          </div>
+	  </div>
+      <div class="move_down_list">
+        <div class="move_down_btn_one" id="button_list_down"></div>
+      </div>
+</div>
+<input type="hidden" value="" id="orderField"/>
+<input type="hidden" value="0" id="campaignId"/>
+<input type="hidden" value="0" id="orderId"/>
+		<!--左侧区域-->
+		<!--右侧区域-->
+		<div class="page_right">
+		    <ul class="nav clearfix">
+			    <li class="current"><span class="nbtn_1_y"></span>创建活动</li>
+				<li><span class="nbtn_2_n"></span>添加订单</li>
+				<li><span class="nbtn_3_n"></span>添加定向</li>
+				<li><span class="nbtn_4_n"></span>完成投放</li>
+			</ul>
+			<div class="box_one">
+			    <h1>创建活动</h1>
+				<h2>活动信息</h2>
+				<div class="form_cont">
+					<dl class="form_list clearfix">
+					  <dt>活动名：</dt>
+					  <dd><input name="activityname" id="activityName" type="text" class="input_text_two" value=""></dd>
+					  <dd>
+						<div class="tip"><div id="activityNameTip" class="errorText"></div></div>
+					  </dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>广告主：</dt>
+					  <dd>
+                          <div txt="请选择广告主" id="choseAdver" class="input_xiala" style="width:195px;">请选择广告主</div>
+ 
+					  </dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>活动类型：</dt>
+					  <dd>
+                           <div txt="请选择活动类型" id="choseActivity" class="input_xiala" style="width:150px;">请选择活动类型</div>
+					  </dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>活动分类：</dt>
+					  <dd>
+                         <div txt="请选择活动分类" id="choseClassify" class="input_xiala" style="width:150px;">请选择活动分类</div>
+					  </dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>活动投放周期：</dt>
+					  <dd id="dateArea" class="relative">
+							<input type="text" name="date" class="date-input" readonly="readonly" value="2012/03/16 - 2012/04/12"/>
+							<input type="hidden" id="oldDate" name="" />
+							<input type="hidden" id="newDate" name="" />
+							<input type="hidden" id="submitDate" name="" value='["2012-03-28","2012-03-31","2012-04-01","2012-04-07","2012-04-08","2012-04-14","2012-04-15","2012-04-21","2012-04-22","2012-04-28","2012-04-29"]'/>
+					  </dd>
+					</dl>
+				</div>
+				<h2>活动设置</h2>
+				<div class="form_cont">
+					<dl class="form_list clearfix">
+					  <dt>总预算：</dt>
+					  <dd><input name="totalbudget" type="text" class="input_text_three" value="" id="totalbudget">&nbsp;元</dd>
+					  <dd><div class="tip"><div id="totalbudgetTip"></div></div></dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>活动目标：</dt>
+					  <dd>
+					     <ul class="active_bg clearfix">
+						    <li class="clearfix">
+							<span><input  type="radio" value="1" checked="checked" name="adForm" ><label>有效到达</label></span>
+							<span><input type="radio" value="2" name="adForm" ><label>最低花费</label></span>
+							</li>
+							<li class="clearfix">
+							<span><input type="radio" value="3" name="adForm" ><label>CPC</label></span>
+							<span><input type="radio" value="4" name="adForm" ><label>CPE</label></span>
+							</li>
+							<li class="clearfix">
+							<span><input type="radio" value="5" name="adForm" ><label>CPA</label></span>
+							<span class="gray"><input name="active" type="radio" value="" disabled="disabled"><label>CPS</label></span>
+							</li>
+						 </ul>
+						 <div>
+							<div style="float:left">目标价格：</div>
+							<div style="float:left"><input name="goal_price" id="goal_price" type="text" class="input_text_four" value="">&nbsp;<span  id="effArrive">CPM</span></div>
+						 </div>
+					  </dd>
+					  <dd style="margin:100px 0 0 -40px;"><div class="tip"><div id="goal_priceTip"></div></div></dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>监测站点：</dt>
+					  <dd>
+						<div txt="请选择行业" id="choseMonSite" class="input_xiala_dis" style="width:120px;">请选择监测站点</div>
+					  </dd>
+					      <dd style="padding:0 0 0 20px;">
+						<div txt="请选择产品" id="choseMonPoint" class="input_xiala_dis" style="width:120px;">请选择监测点</div>		
+					      </dd>
+					      <dd class="choose">&nbsp;<span id="choose">(可选)</span></dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>窗口期设置：</dt>
+					  <dd>浏览后有效期&nbsp;<input name="" type="text" class="input_text_five dis_color" value="5" id="browserVal" readonly>&nbsp;天&nbsp;&nbsp;&nbsp;&nbsp;点击后有效期&nbsp;<input name="" type="text" class="input_text_five dis_color" value="7" id="clickVal" readonly>&nbsp;天</dd>
+					</dl>
+				</div>
+				<h2>调整投放</h2>
+				<div class="form_cont">
+					<dl class="form_list clearfix">
+					  <dt>预投放：</dt>
+					  <dd>
+					  <div class="puton">
+					      <div class="title"><input name="" type="checkbox" value="" checked="checked" id="preLaunch"><label>使用悠选自学习系统参数</label></div>
+						  <ul class="content gray_one" id="preLaunchArea">
+						         <li class="clearfix">
+							        <span class="tit">试投放：</span>
+								<span class="con"><input name="" readonly type="text" class="input_text_seven dis_color" value="3" id="testLaunch">&nbsp;天</span>
+							  </li>
+							  <li class="clearfix">
+							        <span class="tit">正式投放前的预算：</span>
+								<span class="con"><input name="putfront"  disabled="disabled" type="radio" value="1">&nbsp;<input name=""  readonly type="text" class="input_text_seven dis_color" id="putFrontMoney">&nbsp;￥　<input name="putfront" type="radio"  disabled="disabled" value="2" checked="checked">&nbsp;<input name="" readonly type="text" class="input_text_seven dis_color" value="10" id="putFrontPer">&nbsp;%</span>
+							  </li>
+
+
+							  <li class="clearfix">
+							        <span class="tit">正式投放中的预算：</span>
+								<span class="con"><input name="putin" type="radio" value="1"  disabled="disabled">&nbsp;<input name=""  type="text" class="input_text_seven dis_color" readonly id="putInMoney">&nbsp;￥　<input name="putin" type="radio" value="2"  disabled="disabled" checked="checked">&nbsp;<input  name="" type="text" class="input_text_seven dis_color" value="5" readonly id="putInPer">&nbsp;%</span>
+							  </li>
+						  </ul>
+					  </div>
+					  </dd>
+					</dl>
+					<dl class="form_list clearfix">
+					  <dt>频次控制：</dt>
+					  <dd>
+						  <div class="puton">
+							  <div class="title"><input name="active" type="radio" value="" checked="checked"><label>按订单</label>&nbsp;&nbsp;&nbsp;&nbsp;<input name="active" type="radio" value="" checked="checked"><label>按活动</label></div>
+						  </div>
+					  </dd>
+                      <dd>
+                      			
+                      </dd>
+					</dl>
+                    <dl class="form_list clearfix" style="margin:10px 0 0 0;">
+                    	<dt>&nbsp;</dt>
+                        <dd style="padding:0 4px 0 0;">
+                        	<div class="clearfix">
+				 <div class="select_c_one">
+					 <div class="select_one" style="width:80px;z-index:1;">
+						 <div id="speed_t" class="title">
+							<p val="1" txt="匀速">匀速</p>
+						 </div>
+						 <div class="option" style="width:78px; display:none">
+							 <a txt="加速" val="2" href="javascript:void(0);">加速</a>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+                        </dd>
+                        <dd><input type="text" value="5" class="input_text_five" name="">&nbsp;次/&nbsp;</dd>
+                        <dd><div txt="天" id="switchDay" class="input_xiala" style="width:80px;">天</div></dd>
+                        <dd></dd>
+                    </dl>
+				</div>
+			</div>
+			<div class="submit_center clearfix">
+			<a class="btton_reset" href="javascript:JqueryDialog.Open('提示','/direct-user/show-order-tip/',510,140);"><span>退出并返回</span></a>&nbsp;&nbsp;<a id="direct_user_save" class="btton_save" href="javascript:void(0);"><span>保存并退出</span></a>&nbsp;&nbsp;<a id="direct_user_save" class="btton_save" href="javascript:void(0);"><span>保存并继续创建一个订单</span></a>
+			</div>
+		</div>
+		<!--右侧区域-->
+    <!--box区域-->
+  </div>
+  <!--中间区域-->
+  <!--尾部-->
+<div id="foot">
+Copyright © 2012 Yoyi.com.cn All rights reserved. 悠易互通（北京）广告有限公司 版权所有 京ICP证080307号   京公网安备110105009753号
+</div>
+<!--尾部-->
+</div>
+<!--主体包-->
+
+</body>
+<script src="../js/lib/jquery-1.3.2.min.js"></script>
+<script src="../js/com/datetime/DatepickerExtend.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   var dateObj=new Date();
+   var curYear=dateObj.getFullYear();
+   var curMonth=dateObj.getMonth()+1;
+   var curDate=dateObj.getDate();
+   var curDateFormat=curYear+"/"+(curMonth.toString().length!=1?curMonth:'0'+curMonth)+"/"+(curDate.toString().length!=1?curDate:'0'+curDate);
+   //$('input.date-input').val(curDateFormat+' - '+curDateFormat)   //setCurrentDate
+   $("#oldDate").val('["2012-03-28","2012-03-31","2012-04-01","2012-04-07","2012-04-08","2012-04-14","2012-04-15","2012-04-21","2012-04-22","2012-04-28","2012-04-29"]');
+   $("#newDate").val('');
+   $("#dateReturnVal").attr("alt",curDateFormat);
+   $('input.date-input').initDate({
+	  lastoption:0,
+	  sdate:2000,
+	  edate:2050,
+	  target:'.date-control',
+	  starget:'.date-input',
+	  pos:'relative',
+	  posleft:0,
+	  postop:5,
+	  parentid:'#dateArea',
+	  timeparentid:'#dateTimeArea',
+	  olddate:'#oldDate',
+	  newdate:'#newDate',
+	  submitdate:'#submitDate'
+   });
+});
+</script>
